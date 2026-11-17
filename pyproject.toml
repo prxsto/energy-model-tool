@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hcem"
+version = "0.1.0"
+description = "Healthcare massing to EnergyPlus energy models"
+requires-python = ">=3.10"
+dependencies = [
+  "openstudio>=3.9",
+  "rhino3dm>=8.0",
+  "shapely>=2.0",
+  "pydantic>=2.5",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+hcem = "hcem.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hcem = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,1161 @@
+{
+ "_meta": {
+  "source": "NREL OpenStudio-Standards (BSD-3-Clause)",
+  "revision": "0bd835164403285d82654c422e525a9877e3c47e 2026-11-16",
+  "template": "90.1-2019"
+ },
+ "climate_zones": {
+  "0": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 1.8284,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 1.9874,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 1.6013,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.2215,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.2328,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 3.2934,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.5338,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.7041,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.5054,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.22
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 3.5205,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.2
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 4.713,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.2
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.2634,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.7653,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 6.4732,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 3.9748,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 3.9748,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 3.9748,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   }
+  },
+  "1": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 1.8284,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 1.9874,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 1.6013,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.2726,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.2328,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 3.2934,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.5338,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.7041,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.5054,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.23
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 3.5205,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.21
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 4.713,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.21
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.2634,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.7653,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 6.4732,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 3.9748,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 3.9748,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 3.9748,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   }
+  },
+  "2": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.6076,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.2158,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1874,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.2215,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.2328,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.8574,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.5338,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.477,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.5054,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 2.5552,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.25
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 3.407,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.23
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 4.3723,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.23
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.2634,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.5577,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 6.4732,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 3.6909,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 3.6909,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 3.6909,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   }
+  },
+  "3": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.4202,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.2158,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1874,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.2215,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.2328,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.6984,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.5338,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.4372,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.5054,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 2.3849,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.25
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 3.0663,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.23
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 3.8612,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.23
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.2634,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.4884,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 6.4732,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 3.123,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 3.123,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 3.123,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.3
+   }
+  },
+  "4": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.3237,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.2158,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1874,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.2101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1192,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.5905,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.3407,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.3634,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.3634,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 2.0442,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.36
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 2.5552,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.33
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 3.5773,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.33
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 0.9,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.459,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 0.6757,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   }
+  },
+  "5": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.3237,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.2158,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1874,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.2101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1192,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.511,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.2839,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.3123,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.2896,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 2.0442,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.38
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 2.5552,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.33
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 3.5773,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.33
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 0.9,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.1907,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 0.6757,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 2.8391,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   }
+  },
+  "6": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.2896,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.176,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.1192,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.4543,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.2839,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.2782,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.2896,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 1.9306,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.38
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 2.3849,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.34
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 3.5773,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.34
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 0.8827,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.1907,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 0.5224,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 2.6688,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 2.6688,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 2.6688,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   }
+  },
+  "7": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.2385,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.159,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.1647,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.0965,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.4032,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.2498,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.2782,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.2896,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 1.6467,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 2.0442,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.36
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 3.5773,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.36
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 0.8827,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.1613,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 0.3577,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 2.4984,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 2.4984,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 2.4984,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   }
+  },
+  "8": {
+   "ExteriorDoor:Swinging": {
+    "u_w_m2k": 2.101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorDoor:NonSwinging": {
+    "u_w_m2k": 1.7603,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:Mass": {
+    "u_w_m2k": 0.2158,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:SteelFramed": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorFloor:WoodFramed": {
+    "u_w_m2k": 0.1533,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:IEAD": {
+    "u_w_m2k": 0.159,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Metal Building": {
+    "u_w_m2k": 0.1476,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorRoof:Attic and Other": {
+    "u_w_m2k": 0.0965,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Mass": {
+    "u_w_m2k": 0.2726,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:Metal Building": {
+    "u_w_m2k": 0.2215,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:SteelFramed": {
+    "u_w_m2k": 0.2101,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWall:WoodFramed": {
+    "u_w_m2k": 0.1817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "ExteriorWindow:Fixed": {
+    "u_w_m2k": 1.4763,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.4
+   },
+   "ExteriorWindow:Operable": {
+    "u_w_m2k": 1.817,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.36
+   },
+   "GlassDoor:Entrance door": {
+    "u_w_m2k": 3.5773,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": 0.36
+   },
+   "GroundContactFloor:Unheated": {
+    "u_w_m2k": null,
+    "f_w_mk": 0.7511,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactFloor:Heated": {
+    "u_w_m2k": null,
+    "f_w_mk": 1.1613,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "GroundContactWall:Mass": {
+    "u_w_m2k": null,
+    "f_w_mk": null,
+    "c_w_m2k": 0.3577,
+    "shgc": null
+   },
+   "Skylight:Glass with Curb": {
+    "u_w_m2k": 2.3281,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "Skylight:Plastic with Curb": {
+    "u_w_m2k": 2.3281,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   },
+   "Skylight:Without Curb": {
+    "u_w_m2k": 2.3281,
+    "f_w_mk": null,
+    "c_w_m2k": null,
+    "shgc": null
+   }
+  }
+ }
+}

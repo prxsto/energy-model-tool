@@ -1,0 +1,31 @@
+{
+  "name": "Example Hospital",
+  "units": "m",
+  "north_deg": 0,
+  "climate_zone": "6A",
+  "hvac": "ideal_loads",
+  "departments": {
+    "Lobby":     {"program": "Lobby",     "wwr": {"N": 0.25, "E": 0.25, "S": 0.50, "W": 0.25}},
+    "Surgery":   {"program": "Surgery",   "wwr": {"N": 0.20, "E": 0.20, "S": 0.20, "W": 0.20}},
+    "Clinical":  {"program": "Clinical",  "wwr": {"N": 0.30, "E": 0.30, "S": 0.30, "W": 0.30}},
+    "Inpatient": {"program": "Inpatient", "wwr": {"N": 0.35, "E": 0.35, "S": 0.35, "W": 0.35}}
+  },
+  "levels": [
+    {"name": "L1", "elevation": 0.0, "height": 5.5, "plates": [
+      {"department": "Lobby",   "polygon": [[0,0],[72,0],[72,16],[0,16]]},
+      {"department": "Surgery", "polygon": [[0,16],[72,16],[72,48],[0,48]]}
+    ]},
+    {"name": "L2", "elevation": 5.5, "height": 4.9, "plates": [
+      {"department": "Clinical", "polygon": [[0,0],[72,0],[72,48],[0,48]]}
+    ]},
+    {"name": "L3", "elevation": 10.4, "height": 4.3, "plates": [
+      {"department": "Inpatient", "polygon": [[4,14],[68,14],[68,34],[4,34]]}
+    ]},
+    {"name": "L4", "elevation": 14.7, "height": 4.3, "plates": [
+      {"department": "Inpatient", "polygon": [[4,14],[68,14],[68,34],[4,34]]}
+    ]},
+    {"name": "L5", "elevation": 19.0, "height": 4.3, "plates": [
+      {"department": "Inpatient", "polygon": [[4,14],[68,14],[68,34],[4,34]]}
+    ]}
+  ]
+}

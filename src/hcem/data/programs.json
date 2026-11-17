@@ -1,0 +1,28 @@
+{
+ "_meta": {
+  "note": "Starter department programs: area fractions of 90.1-2019 hospital prototype space types (see space_types.json). Generic defaults for early design - edit or replace per project.",
+  "proxies": "PatRoom stands in for PACU/prep bays; ER_Exam for outpatient exam rooms; Radiology for imaging."
+ },
+ "programs": {
+  "Lobby": {
+   "perimeter": {"Lobby": 0.85, "Corridor": 0.15},
+   "core": {"Lobby": 0.55, "Corridor": 0.30, "Office": 0.15}
+  },
+  "Surgery": {
+   "perimeter": {"PatRoom": 0.50, "Office": 0.30, "NurseStn": 0.20},
+   "core": {"OR": 0.45, "Corridor": 0.35, "NurseStn": 0.20}
+  },
+  "Clinical": {
+   "perimeter": {"ER_Exam": 0.60, "Office": 0.40},
+   "core": {"ER_Exam": 0.25, "Corridor": 0.30, "NurseStn": 0.15, "Radiology": 0.20, "Lab": 0.10}
+  },
+  "Inpatient": {
+   "perimeter": {"PatRoom": 1.00},
+   "core": {"PatCorridor": 0.45, "NurseStn": 0.25, "Office": 0.20, "PatRoom": 0.10}
+  },
+  "Admin": {
+   "perimeter": {"Office": 1.00},
+   "core": {"Office": 0.70, "Corridor": 0.30}
+  }
+ }
+}

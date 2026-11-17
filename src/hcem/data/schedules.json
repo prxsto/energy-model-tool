@@ -1,0 +1,1798 @@
+{
+ "_meta": {
+  "source": "NREL OpenStudio-Standards (BSD-3-Clause)",
+  "revision": "0bd835164403285d82654c422e525a9877e3c47e 2026-11-16",
+  "template": "90.1-2019"
+ },
+ "schedules": {
+  "Hospital ACTIVITY_SCH": [
+   {
+    "day_types": [
+     "Default",
+     "WntrDsn",
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     120.0
+    ],
+    "category": "Activity"
+   }
+  ],
+  "Hospital BLDG_EQUIP_EXTD_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.5,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.65,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.7,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.4
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Equipment"
+   }
+  ],
+  "Hospital BLDG_EQUIP_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698,
+     0.2619511698
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.4870009145,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.63310118885,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.3492682264,
+     0.6818012803,
+     0.8766016461,
+     0.8766016461,
+     0.8766016461,
+     0.8766016461,
+     0.8766016461,
+     0.8766016461,
+     0.8766016461,
+     0.8766016461,
+     0.584401097,
+     0.584401097,
+     0.584401097,
+     0.584401097,
+     0.584401097,
+     0.584401097,
+     0.5239023396,
+     0.3492682264
+    ],
+    "category": "Equipment"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Equipment"
+   }
+  ],
+  "Hospital BLDG_LIGHT_CORRIDOR_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_EXTD_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_LOBBYFLR1_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_NURSEFLR1_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_NURSEFLR234_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.7,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_OFFICE_BSMT_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_OFFICE_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_RADIOLOGY_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_LIGHT_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.5,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.9,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.1
+    ],
+    "category": "Lighting"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Lighting"
+   }
+  ],
+  "Hospital BLDG_OCC_EXTD_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.5,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.5,
+     0.5,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.5,
+     0.6,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.6,
+     0.5,
+     0.5,
+     0.4,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Occupancy"
+   }
+  ],
+  "Hospital BLDG_OCC_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.1,
+     0.3,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.1,
+     0.1,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     1.0
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.1,
+     0.5,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.8,
+     0.5,
+     0.3,
+     0.3,
+     0.2,
+     0.2,
+     0.0,
+     0.0
+    ],
+    "category": "Occupancy"
+   },
+   {
+    "day_types": [
+     "WntrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     0.0
+    ],
+    "category": "Occupancy"
+   }
+  ],
+  "Hospital BLDG_SWH_EXTD_SCH": [
+   {
+    "day_types": [
+     "Default",
+     "WntrDsn",
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.4,
+     0.5,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.6,
+     0.5,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3
+    ],
+    "category": "Service Water Heating"
+   },
+   {
+    "day_types": [
+     "SmrDsn",
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.3,
+     0.5,
+     0.58,
+     0.66,
+     0.78,
+     0.82,
+     0.71,
+     0.82,
+     0.78,
+     0.74,
+     0.63,
+     0.41,
+     0.35,
+     0.35,
+     0.35,
+     0.3,
+     0.3,
+     0.3
+    ],
+    "category": "Service Water Heating"
+   }
+  ],
+  "Hospital BLDG_SWH_SCH": [
+   {
+    "day_types": [
+     "Default"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.01,
+     0.01,
+     0.01,
+     0.01,
+     0.01,
+     0.01,
+     0.01,
+     0.01,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "category": "Service Water Heating"
+   },
+   {
+    "day_types": [
+     "SmrDsn",
+     "Wkdy"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.17,
+     0.58,
+     0.66,
+     0.78,
+     0.82,
+     0.71,
+     0.82,
+     0.78,
+     0.74,
+     0.63,
+     0.41,
+     0.18,
+     0.18,
+     0.18,
+     0.1,
+     0.0,
+     0.0
+    ],
+    "category": "Service Water Heating"
+   },
+   {
+    "day_types": [
+     "WntrDsn",
+     "Sat"
+    ],
+    "type": "Hourly",
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.01,
+     0.2,
+     0.28,
+     0.3,
+     0.3,
+     0.24,
+     0.24,
+     0.23,
+     0.23,
+     0.23,
+     0.1,
+     0.1,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "category": "Service Water Heating"
+   }
+  ],
+  "Hospital CLGSETP_SCH": [
+   {
+    "day_types": [
+     "Default",
+     "WntrDsn",
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     24.0
+    ],
+    "category": "Thermostat Setpoint"
+   }
+  ],
+  "Hospital HTGSETP_SCH": [
+   {
+    "day_types": [
+     "Default",
+     "WntrDsn",
+     "SmrDsn"
+    ],
+    "type": "Constant",
+    "values": [
+     21.0
+    ],
+    "category": "Thermostat Setpoint"
+   }
+  ]
+ }
+}
